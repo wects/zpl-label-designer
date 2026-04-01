@@ -1,6 +1,10 @@
 # ZPL Label Designer (zpl_label_designer)
 
-A modern, interactive Web ZPL Label Designer (Proof of Concept) built with Nuxt 3 and Fabric.js (planning to transition to Konva.js).
+A modern, interactive Web ZPL Label Designer (Proof of Concept) built with Nuxt 3 and Fabric.js.
+
+## Online Demo
+
+[https://zpldesigner.wects.com](https://zpldesigner.wects.com)
 
 ## Features
 
