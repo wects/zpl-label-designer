@@ -5,9 +5,13 @@ export default defineNuxtConfig({
   devServer: {
     host: '127.0.0.1'
   },
+  ssr: false, // This is a POC designer, SSR is not required and highly problematic with Fabric.js on Cloudflare Workers
   css: [
     '~/assets/css/main.css'
   ],
+  nitro: {
+    preset: 'cloudflare-pages'
+  },
   vite: {
     plugins: [
       {
